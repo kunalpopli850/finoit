@@ -1,0 +1,50 @@
+Student_details
+S_id  name    email          C_id
+
+101  kunal  1200@gmail.com     2
+102  rahul  1100@gmail.com     3
+103  Xyz    3100@gmail.com     4
+104  hari   2100@gmail.com     1
+
+
+Class_details
+c_id  section  t_id   
+1      A       2001
+1      B       2002
+2      A       3001
+3      A       4001
+4      B       1001
+4      C       1002
+
+Teacher_details
+
+t_id  t_name  Age
+2001  sunita   35
+2002   sumit   30
+3001   anil    40
+4001   prerna  27
+1001   ravi    24
+1002   mansi   25
+
+Teacher_teaches_which_subject
+
+t_id   s_id 
+
+2001   m-1
+2001   c-1
+2002   sc-1
+3001   sc-1 
+3001   c-1
+4001   m-1
+1001   h-1
+1002   e-1
+
+subject_details
+
+s_id  s_name
+m-1   maths
+sc-1  computer
+ss-1  science
+h-1   hindi
+e-1    english
+
